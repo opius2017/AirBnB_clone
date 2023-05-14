@@ -125,6 +125,6 @@ EOF  help  quit
   <p>AirBnB Clone is open source and free to download and use</p>
 
 <h2>Authors<h2>
-<h4>1. Owolabi Pius</h4>
-<h4>2. Ahmed Nagm</h4>
+  1. Owolabi Pius
+  2. Ahmed Nagm
 
