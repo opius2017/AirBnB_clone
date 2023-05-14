@@ -50,14 +50,19 @@ During this project, you will learn how to manipulate HTML and CSS languages. HT
 <li>How to compute CSS Specificity Value</li>
 <li>What are Box properties in CSS</li>
 </ul>
-Requirements
-PYTHON SCRIPT REQUIREMENTS
-allowed editors: vi, vim, emacs
-the first line of all files should be exactly #!/usr/bin/python3
-all code should use the PEP8 style (version 1.7.*)
-all files must be executable
-all files will be interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)
-PYTHON TEST CASE REQUIREMENTS
+<hr />
+
+<h1>Requirements</h1>
+<h2>PYTHON SCRIPT REQUIREMENTS</h2>
+<ol>
+<li>allowed editors: vi, vim, emacs</li>
+<li>the first line of all files should be exactly #!/usr/bin/python3</li>
+<li>all code should use the PEP8 style (version 1.7.*)</li>
+<li>all files must be executable</li>
+<li>all files will be interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)</li>
+  </ol>
+  <hr/>
+<h1>PYTHON TEST CASE REQUIREMENTS</h1>
 all test files should be in the folder tests
 all test files should be text files (extension: .txt)
 all test files should be executed using the command python3 -m doctest ./tests/*
