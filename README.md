@@ -34,20 +34,22 @@ No Javascript
 No data loaded from anything
 During this project, you will learn how to manipulate HTML and CSS languages. HTML is the structure of your page, it should be the first thing to write. CSS is the styling of your page, the design. I really encourage you to fix your HTML part before starting the styling. Indeed, without any structure, you can’t apply any design.
 
-Learning Objectives
-What is HTML
-How to create an HTML page
-What is a markup language
-What is the DOM
-What is an element / tag
-What is an attribute
-How does the browser load a webpage
-What is CSS
-How to add style to an element
-What is a class
-What is a selector
-How to compute CSS Specificity Value
-What are Box properties in CSS
+<h3>Learning Objectives</h3>
+<ul>
+  <li>What is HTML</li>
+<li>How to create an HTML page</li>
+<li>What is a markup language</li>
+<li>What is the DOM</li>
+<li>What is an element / tag</li>
+<li>What is an attribute</li>
+<li>How does the browser load a webpage</li>
+<li>What is CSS</li>
+<li>How to add style to an element</li>
+<li>What is a class</li>
+<li>What is a selector</li>
+<li>How to compute CSS Specificity Value</li>
+<li>What are Box properties in CSS</li>
+</ul>
 Requirements
 PYTHON SCRIPT REQUIREMENTS
 allowed editors: vi, vim, emacs
