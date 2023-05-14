@@ -1,5 +1,5 @@
 <h1>Welcome to the AirBnB Clone Project</h1>
-
+  
 <h2>AirBnB Clone - The Console</h2>
 
 
