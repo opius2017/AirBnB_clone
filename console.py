@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module for the entry point of the command interpreter."""
+"""Main Module for the interpreter entry point command."""
 
 import cmd
 from models.base_model import BaseModel
@@ -10,7 +10,7 @@ import json
 
 class HBNBCommand(cmd.Cmd):
 
-    """Class for the command interpreter."""
+    """Class for command interpreter."""
 
     prompt = "(hbnb) "
 
@@ -62,7 +62,7 @@ class HBNBCommand(cmd.Cmd):
         elif uid is None:
             print("** instance id missing **")
         else:
-            key = "{}.{}".format(classname, uid)
+            key = f"{classname}.{uid}"
             if key not in storage.all():
                 print("** no instance found **")
             else:
@@ -113,7 +113,7 @@ class HBNBCommand(cmd.Cmd):
             elif len(words) < 2:
                 print("** instance id missing **")
             else:
-                key = "{}.{}".format(words[0], words[1])
+                key = f"{words[0]}.{words[1]}"
                 if key not in storage.all():
                     print("** no instance found **")
                 else:
@@ -131,7 +131,7 @@ class HBNBCommand(cmd.Cmd):
             elif len(words) < 2:
                 print("** instance id missing **")
             else:
-                key = "{}.{}".format(words[0], words[1])
+                key = f"{words[0]}.{words[1]}"
                 if key not in storage.all():
                     print("** no instance found **")
                 else:
@@ -187,7 +187,7 @@ class HBNBCommand(cmd.Cmd):
         elif uid is None:
             print("** instance id missing **")
         else:
-            key = "{}.{}".format(classname, uid)
+            key = f"{classname}.{uid}"
             if key not in storage.all():
                 print("** no instance found **")
             elif not attribute:
