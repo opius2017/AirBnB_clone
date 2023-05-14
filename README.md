@@ -51,7 +51,6 @@ Description
 <li>How to compute CSS Specificity Value</li>
 <li>What are Box properties in CSS</li>
 </ul>
-<hr />
 
 <h1>Requirements</h1>
 <h2>PYTHON SCRIPT REQUIREMENTS</h2>
@@ -62,7 +61,6 @@ Description
 <li>all files must be executable</li>
 <li>all files will be interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)</li>
   </ol>
-  <hr/>
 <h1>PYTHON TEST CASE REQUIREMENTS</h1>
 <ul>
 <li>all test files should be in the folder tests
@@ -120,13 +118,13 @@ Documented commands (type help <topic>):
 EOF  help  quit
 (hbnb)
 ~/me$
-Bugs
-At this time, there are no known bugs.
+<h2>Bugs</h2>
+  <p>At this time, there are no known bugs.</p>
 
-  <h1>License</h1>
-AirBnB Clone is open source and free to download and use
+  <h2>License</h2>
+  <p>AirBnB Clone is open source and free to download and use</p>
 
-<h1>Authors<h1>
-<h3>1. Owolabi Pius</h3>
-<h3>2. Ahmed Nagm</h3>
+<h2>Authors<h2>
+<h4>1. Owolabi Pius</h4>
+<h4>2. Ahmed Nagm</h4>
 
