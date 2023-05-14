@@ -1,6 +1,6 @@
 <h1>Welcome to the AirBnB Clone Project</h1>
 
-AirBnB Clone - The Console
+<h2>AirBnB Clone - The Console</h2>
 
 
 Table of Contents
@@ -10,29 +10,30 @@ Table of Contents
 Description
 
 
-Purpose
-The purpose of this project is to understand how to:
+<h2>Purpose</h2>
+<h3>The purpose of this project is to understand how to: </h3>
+<ul>
+<li>create a Python package</li>
+<li>create a command interpreter using the cmd module</li>
+<li>serialize and deserialize a Class</li>
+<li>write and read a JSON file</li>
+<li>manage datetime</li>
+<li>use *args and **kwargs</li>
+<li>handle named arguments in a function</li>
+<li>HTML and CSS concepts</li>
+  </ul>
+<p>Now that you have a command interpreter for managing your AirBnB objects, it’s time to make them alive! </p>
 
-create a Python package
-create a command interpreter using the cmd module
-serialize and deserialize a Class
-write and read a JSON file
-manage datetime
-use *args and **kwargs
-handle named arguments in a function
-HTML and CSS concepts
-Now that you have a command interpreter for managing your AirBnB objects, it’s time to make them alive!
-
-Before developing a big and complex web application, we will build the front end step-by-step.
-
-The first step is to “design” / “sketch” / “prototype” each element:
-
-Create simple HTML static pages
-Style guide
-Fake contents
-No Javascript
-No data loaded from anything
-During this project, you will learn how to manipulate HTML and CSS languages. HTML is the structure of your page, it should be the first thing to write. CSS is the styling of your page, the design. I really encourage you to fix your HTML part before starting the styling. Indeed, without any structure, you can’t apply any design.
+<p><b>Before developing a big and complex web application, we will build the front end step-by-step.</b></p>
+<p>The first step is to “design” / “sketch” / “prototype” each element: </p>
+<ul>
+  <li>Create simple HTML static pages</li>
+  <li>Style guide</li>
+  <li>Fake contents</li>
+  <li>No Javascript</li>
+  <li>No data loaded from anything</li>
+</ul>
+<p>During this project, you will learn how to manipulate HTML and CSS languages. HTML is the structure of your page, it should be the first thing to write. CSS is the styling of your page, the design. I really encourage you to fix your HTML part before starting the styling. Indeed, without any structure, you can’t apply any design.</p>
 
 <h3>Learning Objectives</h3>
 <ul>
@@ -63,25 +64,31 @@ During this project, you will learn how to manipulate HTML and CSS languages. HT
   </ol>
   <hr/>
 <h1>PYTHON TEST CASE REQUIREMENTS</h1>
-all test files should be in the folder tests
-all test files should be text files (extension: .txt)
-all test files should be executed using the command python3 -m doctest ./tests/*
-all modules should have documentation python3 -c 'print(__import__("my_module").__doc__)'
-all functions (inside and outside of classes) should have documentation python3 -c 'print(__import__("my_module").my_funct\ ion.__doc__)'
-General
-Allowed editors: vi, vim, emacs
-All your files should end with a new line
-A README.md file, at the root of the folder of the project, is mandatory
-Your code should be W3C compliant and validate with W3C-Validator
-All your CSS files should be in styles folder
-All your images should be in images folder
-You are not allowed to use !important and id (#... in the CSS file)
-You are not allowed to use tags img, embed and iframe
-You are not allowed to use Javascript
-Current screenshots have been done on Chrome 56 or more.
-No cross browsers
-You have to follow all requirements but some margin/padding are missing - you should try to fit as much as you can to screenshots
-Usage Examples for console
+<ul>
+<li>all test files should be in the folder tests
+<li>all test files should be text files (extension: .txt)
+vall test files should be executed using the command python3 -m doctest ./tests/*
+<li>all modules should have documentation python3 -c 'print(__import__("my_module").__doc__)'
+<li>all functions (inside and outside of classes) should have documentation python3 -c 'print(__import__("my_module").my_funct\ ion.__doc__)'</li>
+  </ul>
+  <hr/>
+<h1>General</h1>
+<ul>
+<li>Allowed editors: vi, vim, emacs</li>
+<li>All your files should end with a new line</li>
+<li>A README.md file, at the root of the folder of the project, is mandatory</li>
+<li>Your code should be W3C compliant and validate with W3C-Validator</li>
+<li>All your CSS files should be in styles folder</li>
+<li>All your images should be in images folder</li>
+<li>You are not allowed to use !important and id (#... in the CSS file)</li>
+<li>You are not allowed to use tags img, embed and iframe</li>
+<li>You are not allowed to use Javascript</li>
+<li>Current screenshots have been done on Chrome 56 or more.</li>
+<li>No cross browsers</li>
+<li>You have to follow all requirements but some margin/padding are missing - you should try to fit as much as you can to screenshots</li>
+  </ul>
+  <hr />
+<h2>Usage Examples for console</h2>
 Interactive Mode
 ~/me$ ./console.py
 (hbnb) help
@@ -116,10 +123,10 @@ EOF  help  quit
 Bugs
 At this time, there are no known bugs.
 
-License
+  <h1>License</h1>
 AirBnB Clone is open source and free to download and use
 
-Author
-1. Owolabi Pius
-2. Ahmed Nagm
+<h1>Authors<h1>
+<h3>1. Owolabi Pius</h3>
+<h3>2. Ahmed Nagm</h3>
 
